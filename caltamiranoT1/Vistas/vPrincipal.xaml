@@ -8,11 +8,10 @@
             Padding="30,0"
             Spacing="25">
 
-            <Image 
-                Source="IESS.png"
-                HeightRequest="185"
-                Aspect="AspectFit"
-                SemanticProperties.Description="dot net bot in a race car number eight" />
+            <Image Source="iess.png"
+                   HeightRequest="185"
+                   Aspect="AspectFit"
+                   SemanticProperties.Description="dot net bot in a race car number eight" />
             <Label 
                 Text="INFORMACIÓN SEGURO SOCIAL IESS" 
                 TextColor="DarkGreen" 
