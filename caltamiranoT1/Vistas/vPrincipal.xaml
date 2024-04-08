@@ -5,11 +5,11 @@
              Title="vPrincipal">
     <ScrollView>
         <VerticalStackLayout
-            Padding="30,0"
+            Padding="25"
             Spacing="25">
 
             <Image Source="iess.png"
-                   HeightRequest="185"
+                   HeightRequest="150"
                    Aspect="AspectFit"
                    SemanticProperties.Description="dot net bot in a race car number eight" />
             <Label 
