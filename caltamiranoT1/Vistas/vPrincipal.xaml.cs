@@ -14,7 +14,8 @@ public partial class vPrincipal : ContentPage
         string edad = txtEdad.Text;
         double salario = Convert.ToInt32(txtSalario.Text);
         double calculo = salario * 0.0945;
-        DisplayAlert("Alerta", "Bienvenido " + nombre  +  apellido + "\n Edad: " +edad+ "años \n Tu aporte mensual al IESS es: \n $" + calculo+ "de manera mensual", "Cerrar");
+        DisplayAlert("Alerta", "Bienvenido " + nombre  +  apellido + "\n Edad: " +edad+ "años \n " +
+            "Tu aporte mensual al IESS es: \n $" + calculo+ "de manera mensual", "Cerrar");
  
 
     }

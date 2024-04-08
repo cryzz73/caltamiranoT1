@@ -7,9 +7,15 @@
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25">
+
+            <Image 
+                Source="IESS.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="dot net bot in a race car number eight" />
             <Label 
-                Text="Primera APP MAUI" 
-                TextColor="Red" 
+                Text="INFORMACIÓN SEGURO SOCIAL IESS" 
+                TextColor="DarkGreen" 
                 FontSize="Medium"
                 VerticalTextAlignment="Center">
             </Label>
